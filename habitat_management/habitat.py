@@ -14,12 +14,6 @@ class Habitat:
         self.geographic_area = geographic_area
         self.size = size
         self.environment_type = environment_type
-        # this is Pythonic for
-        # if animals is not None:
-        #   self.animals = animals
-        # else:
-        #   self.animals = []
-        self.animals = animals or []
 
     def update_habitat_details(self, **kwargs: dict[str: Any]) -> None:
         pass
